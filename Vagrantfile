@@ -15,9 +15,9 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     v.cpus = 2
   end
   
-  config.vm.define "openstack-contribute" do |v|
+  config.vm.define "server" do |v|
     v.vm.box = "ubuntu/trusty64"
-    v.vm.hostname = "openstack-contribute"
+    v.vm.hostname = "server"
     v.vm.network "private_network", ip: "192.168.33.77"
     v.ssh.forward_agent = true
     v.vm.provision :shell, :inline => $init
