@@ -5,7 +5,7 @@ VAGRANTFILE_API_VERSION = "2"
 $init = <<SCRIPT
 sudo apt-get -y update
 sudo apt-get -y install git git-review
-sudo apt-get -y python-pip
+sudo apt-get -y install python-pip
 SCRIPT
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
