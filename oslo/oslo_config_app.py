@@ -22,4 +22,3 @@ CONF.register_opts(simple_opts, opt_group)
 if __name__ == "__main__":
     CONF(default_config_files=['oslo_config_app.conf'])
     print(CONF.simple.enable)
-    print(CONF.simple2.enable)
