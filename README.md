@@ -1,2 +1,4 @@
-# openstack-study
-Repository for openstack study.
+openstack-study
+===============
+
+Repository for openstack study about Oslo library and Neutron.
