@@ -33,3 +33,4 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     v.vm.provision :shell, :inline => $init
   end
 end
+
