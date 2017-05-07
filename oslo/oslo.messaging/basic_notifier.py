@@ -11,7 +11,7 @@ import oslo_messaging
 LOG = logging.getLogger(__name__)
 symlog.basicConfig(level=symlog.INFO)
 
-transport_url = 'rabbit://openstack:password@127.0.0.1:5672/'
+transport_url = 'rabbit://gjxdknsw:6Eiq5MPMvrfhbJVvZCrktF4N5NdE7xHg@sidewinder.rmq.cloudamqp.com:5672/gjxdknsw'
 transport = oslo_messaging.get_transport(cfg.CONF, transport_url)
 
 target = oslo_messaging.Target(
